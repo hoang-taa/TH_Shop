@@ -9,6 +9,7 @@
     --header-height: 120px;
     --navbar-height: 34px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    --header-sort-bar-height: 46px;
 }
 
 * {
@@ -29,17 +30,6 @@ html {
    Vs màn < 1200, max-width giảm kích thước grid = màn hình
    có kích thước < 1200*/
 
-
-.grid {
-    width: 1350px;
-    max-width: 100%;
-    margin: 0 auto; /*auto can giua*/
-}
-
-/*Trong th k muon su dung width = 1200*/
-.grid__full-width{
-    width: 100%;
-}
 
 /*Những thẻ nằm trong class này nằm trên hàng ngang
  xuống hàng nếu vượt qua chiều ngang*/
